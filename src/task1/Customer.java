@@ -49,6 +49,10 @@ public class Customer {
         this.id = id;
     }
 
+    public String toString(){
+        return "Customer name: " + firstName + " " + lastName +
+                "\nCustomer user name: " + userName + "\nCustomer id: " + id;
 
+    }
 
 }
