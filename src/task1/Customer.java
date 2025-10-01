@@ -51,7 +51,7 @@ public class Customer {
 
     public String toString(){
         return "Customer name: " + firstName + " " + lastName +
-                "\nCustomer user name: " + userName + "\nCustomer id: " + id;
+                "\nCustomer user name: " + userName + "\nCustomer id: " + id + "\n";
 
     }
 
